@@ -217,7 +217,7 @@ export class Art extends React.Component {
       imgB
     }
 
-    axios.put(`http://localhost:8080/save-image/${localStorage.userId}`, data)
+    axios.put(`https://shrouded-castle-18641.herokuapp.com/save-image/${localStorage.userId}`, data)
       .then((res) => {
         console.log(res.data);
         alert('Image saved to gallery!  Click OK to continue viewing.')
@@ -226,7 +226,6 @@ export class Art extends React.Component {
   // in return use like this         <p>{this.state.imageA}</p>
 
   render() {
-    console.log(this.props.images)
 
     return (
       <div id="toClick">

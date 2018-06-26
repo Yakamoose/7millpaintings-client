@@ -22,7 +22,7 @@ export default class Gallery extends React.Component {
     console.log(userId);
 
 
-    axios.get(`http://localhost:8080/user/${userId}`)
+    axios.get(`https://shrouded-castle-18641.herokuapp.com/user/${userId}`)
         .then((res) => {
           const gallery = res.data.gallery;
           console.log(res.data.gallery[0]);

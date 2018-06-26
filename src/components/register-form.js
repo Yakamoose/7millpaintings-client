@@ -32,7 +32,7 @@ export class RegisterUserForm extends React.Component {
 
       axios({
         method: 'POST',
-        url: 'http://localhost:8080/new-user',
+        url: 'https://shrouded-castle-18641.herokuapp.com/new-user',
         headers: {
           "Content-Type": "application/json"
         },

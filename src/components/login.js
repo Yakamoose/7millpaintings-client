@@ -21,7 +21,7 @@ export class LogInForm extends React.Component {
   onSubmit(user) {
     // console.log(user);
 
-    axios.get(`http://localhost:8080/user/${user.username}/${user.password}`)
+    axios.get(`https://shrouded-castle-18641.herokuapp.com/user/${user.username}/${user.password}`)
       .then((res) => {
         console.log(res.data);
         localStorage.setItem('userId', res.data.id);
