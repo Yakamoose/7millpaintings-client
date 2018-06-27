@@ -8,7 +8,7 @@ import './gallery.css';
 
 
 
-export default class Gallery extends React.Component {
+export class Gallery extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -36,12 +36,7 @@ export default class Gallery extends React.Component {
             component.setState({message: 'Click 7 Million Paintings link above to save images to gallery.'})
           }
       })
-
-
-
-
     }
-    // <GalleryArtPiece imgA={this.state.imgA} imgB={this.state.imgB} />;
 
   render() {
     let pieces = [];
@@ -50,16 +45,16 @@ export default class Gallery extends React.Component {
       pieces[i] =  <GalleryArtPiece imgA={this.state.gallery[i].imgA} imgB={this.state.gallery[i].imgB} key={i}/>;
     }
 
-
     const lib = this.state;
-    console.log(pieces);
+    // console.log(pieces);
 
     return (
       <div className="gallery">
         <h1>{this.state.message}</h1>
         {pieces}
       </div>
-
     )
   }
 }
+
+export default connect()(Gallery);

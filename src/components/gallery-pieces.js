@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 
 import './gallery-pieces.css'
 
-export default class GalleryArtPiece extends React.Component {
+export class GalleryArtPiece extends React.Component {
   constructor(props) {
     super(props)
     console.log(props);
@@ -17,7 +17,7 @@ export default class GalleryArtPiece extends React.Component {
 
 
   render() {
-    
+
     return (
       <div className="body">
         <div id="art">
@@ -54,4 +54,4 @@ export default class GalleryArtPiece extends React.Component {
   }
 }
 
-GalleryArtPiece = connect()(GalleryArtPiece);
+export default connect()(GalleryArtPiece);

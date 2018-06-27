@@ -73,7 +73,7 @@ export class RegisterUserForm extends React.Component {
     render() {
 
         return (
-            <form
+            <form className="regForm"
                 onSubmit={this.props.handleSubmit(values =>
                     this.onSubmit(values)
                 )}>
