@@ -23,7 +23,7 @@ describe('<Art />', () => {
     shallow(<Art />);
   });
   // it('Renders art', () => {
-  //   const wrapper = shallow(<Art />);
+  //   const wrapper = shallow(<Art />)
   //   expect(wrapper.hasClass('clickText')).toEqual(true)
   // });
 });
@@ -39,6 +39,7 @@ describe('<GalleryArtPiece />', () => {
 //     mount(<Gallery />);
 //     //error occurs because local storage is not defined
 //     //look up spy/stub i.e. https://stackoverflow.com/questions/38952021/how-to-unit-test-localstorage-using-sinon
+        // look up jest-localstorage-mock
 //   });
 // });
 
