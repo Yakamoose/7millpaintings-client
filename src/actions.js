@@ -23,7 +23,7 @@ export function loginError(user) {
 export function loginSuccess(user) {
   console.log('in actions, login func');
   console.log(user);
-  alert('Log In Successfull! CLick OK to view art.');
+  alert('Log In Successfull! Click OK to view art.');
 
 
   return {
