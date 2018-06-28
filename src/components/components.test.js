@@ -22,10 +22,6 @@ describe('<Art />', () => {
   it('Renders without crashing', () => {
     shallow(<Art />);
   });
-  // it('Renders art', () => {
-  //   const wrapper = shallow(<Art />)
-  //   expect(wrapper.hasClass('clickText')).toEqual(true)
-  // });
 });
 
 describe('<GalleryArtPiece />', () => {
@@ -33,21 +29,6 @@ describe('<GalleryArtPiece />', () => {
     shallow(<GalleryArtPiece />);
   });
 });
-
-// describe('<Gallery />', () => {
-//   it('Renders without crashing', () => {
-//     mount(<Gallery />);
-//     //error occurs because local storage is not defined
-//     //look up spy/stub i.e. https://stackoverflow.com/questions/38952021/how-to-unit-test-localstorage-using-sinon
-        // look up jest-localstorage-mock
-//   });
-// });
-
-// describe('<Input />', () => {
-//   it('Renders without crashing', () => {
-//     shallow(<Input />);
-//   });
-// });
 
 describe('<Intro />', () => {
   it('Renders without crashing', () => {
@@ -69,11 +50,6 @@ describe('<NavBar />', () => {
   it('Renders without crashing', () => {
     shallow(<NavBar info={info}/>);
   });
-
-  // it('Renders title', () => {
-  //   const wrapper = shallow(<NavBar info={info} />);
-  //   expect(wrapper.hasClass('title')).toEqual(true);
-  // })
 
 });
 
