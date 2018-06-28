@@ -24,7 +24,7 @@ describe('<Art />', () => {
   });
   // it('Renders art', () => {
   //   const wrapper = shallow(<Art />);
-  //   expect(wrapper.hasClass('clickText')).toEqual(true);
+  //   expect(wrapper.hasClass('clickText')).toEqual(true)
   // });
 });
 

@@ -5,7 +5,7 @@
   <br>
   <br>
 
-  <img src="./readme-images/landing-page.png" height="400px">
+  <img src="./readme-images/art-page.png" height="400px">
   <br>
 
   <p>Welcome to 7 MILLION PAINTINGS!  This app takes specific curated images from the
@@ -13,7 +13,7 @@
   </p>
   <br>
 
-  <img src="./readme-images/art-page.png" height="400px">
+  <img src="./readme-images/gallery-page.png" height="400px">
 
 
   <p>This is a demo project and not a production.</p>
