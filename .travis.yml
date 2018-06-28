@@ -2,6 +2,13 @@ language: node_js
 node_js: node
 cache:
   directories:
-    - node_modules
+  - node_modules
 env:
-  - CI=true
+- CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: FfTKw1utMPO1lO49OTOI4++oDKsNBKsFTT2li5OjcHp5rBpyHiSKUXYBXSZNGhpakxkv1F6XNTz0dByCfAv1N+JY35jFeZGPJvoCX4VoMxLcAzqlUbiO6aoL3Aaq6Fsk7DdE0l9ojSOScXpZ5wyA8rFUK+w567mTUck/ByLdrZsYbtSAsn2A7+Kif15B6k0M9sHbqrgcjPNooG08R8erfEYOBYBzhhkyIYrMRH1CMFSrkt+Zn6RwOPCoMBeLmHpX2nAIJ+vWeM+ePDn/4AnaWR1YpaEIiNyyX9ZsAeLXQMc7m3YvpPWvNI/qWxrLuoOBKY4UkqYWDv3H17pWxT+SkX0m6o7JgP1OHuRfmIsLe4NO6zJjo1URFporXHri74ouvTFaKPcBPBIlm3o92HBsD9coxUpdQVqPP2KpirkarZ9o7fbaxdfgs9hy5ScM1jF8PuYtE4YeKrEDLoHU36cMnB/GSWSwlxzandJ1EqfU6UzQl187Nbb5bnB0b2DZmnTYmB5weDo2NVjwn8syp95NykNQjD/qmWGWPU5BZiiyevqNWNbUDdNde8kIzmA1a9voqjxR+rSTRmUVbZSim9WaFEt/tpV2C3x7PfSFay/8rqXzFnQF4P8Wp/OteJ0BLuqmbgxksOw+FtgvI5beHi/xRUVaJVQQwvHExzO1vdVUlUQ=
+  app: 7millpaintings-client
+  on:
+    repo: Yakamoose/7millpaintings-client
