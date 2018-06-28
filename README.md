@@ -6,11 +6,12 @@
   <br>
 
   <img src="./readme-images/landing-page.png" height="400px">
-  <br><br>
+  <br>
 
   <p>Welcome to 7 MILLION PAINTINGS!  This app takes specific curated images from the
   internet and composites them together to create a brand new piece of art to view and save.
   </p>
+  <br>
 
   <img src="./readme-images/art-page.png" height="400px">
 
