@@ -33,11 +33,11 @@
   margin-left: auto;
   margin-right: auto;
   transform: rotate(-45deg);
+  /*background-color: slategrey;*/
 }
 
-.art-body::hover {
-  border: 3px solid black;
-
+.art-body:hover {
+  cursor: cell;
 }
 
 .btn {

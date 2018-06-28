@@ -202,15 +202,9 @@ export class Art extends React.Component {
 
   handleClick(e) {
     e.preventDefault();
-    console.log('clicked');
-    console.log(this.state)
     this.setState({introMessage: ''});
     let imgA = this.state.imageA;
-    // imgA = imgA.slice(5, (imgA.length-2));
-
     let imgB = this.state.imageB;
-    // imgB = imgB.slice(5, (imgB.length-2));
-    console.log(imgA,imgB);
 
     let data = {
       imgA,
@@ -226,7 +220,6 @@ export class Art extends React.Component {
   // in return use like this         <p>{this.state.imageA}</p>
 
   render() {
-
     return (
       <div id="toClick">
 

@@ -6,25 +6,11 @@ export default class Input extends React.Component {
             this.input.focus();
         }
     }
+    
     render() {
-        const Element = this.props.element || 'input';
-
-        // let error;
-        // if (this.props.meta.touched && this.props.meta.error) {
-        //     error = <div className="form-error">{this.props.meta.error}</div>;
-        // }
-        //
-        // let warning;
-        // if (this.props.meta.touched && this.props.meta.warning) {
-        //     warning = (
-        //         <div className="form-warning">{this.props.meta.warning}</div>
-        //     );
-        // }
-
         return (
             <div className="form-input">
-
-                <Element
+                <input
                     {...this.props.input}
                     placeholder={this.props.label}
                     id={this.props.input.name}

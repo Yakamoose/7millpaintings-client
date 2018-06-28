@@ -6,7 +6,10 @@ import {Art} from './art';
 import {GalleryArtPiece} from './gallery-pieces';
 import {Gallery} from './gallery';
 import Input from './input';
+import Intro from './intro';
+import LogInForm from './login';
 import NavBar from './nav';
+import RegisterUserForm from './register-form';
 
 
 describe('<App />', () => {
@@ -45,16 +48,36 @@ describe('<GalleryArtPiece />', () => {
 //   });
 // });
 
+describe('<Intro />', () => {
+  it('Renders without crashing', () => {
+    shallow(<Intro />);
+  });
+});
+
+describe('<LogInForm />', () => {
+  it('Renders without crashing', () => {
+    shallow(<LogInForm />);
+  });
+});
+
 describe('<NavBar />', () => {
   let info = {
-    loggedIn: false
+    loggedIn: true
   };
+
   it('Renders without crashing', () => {
     shallow(<NavBar info={info}/>);
   });
 
-  // it('Renders the title and log in buttons initially', () => {
+  // it('Renders title', () => {
   //   const wrapper = shallow(<NavBar info={info} />);
-  //   expect(wrapper.hasClass('to-login')).toEqual(true);
-  // });
+  //   expect(wrapper.hasClass('title')).toEqual(true);
+  // })
+
+});
+
+describe('<RegisterUserForm />', () => {
+  it('Renders without crashing', () => {
+    shallow(<RegisterUserForm />);
+  });
 });

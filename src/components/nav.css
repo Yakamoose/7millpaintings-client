@@ -39,7 +39,6 @@ a {
 
 .title:hover {
   font-weight: bold;
-  cursor: cell;
 }
 
 .nav-right:hover {
@@ -49,7 +48,6 @@ a {
 
 .to-gallery:hover {
   font-weight: bold;
-  cursor: cell;
 }
 
 span {
@@ -58,7 +56,7 @@ span {
 
 span:hover {
   font-weight: bold;
-  cursor: cell;
+  cursor: pointer;
 }
 
 
