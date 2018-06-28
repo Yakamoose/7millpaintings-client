@@ -65,7 +65,7 @@ span:hover {
   .title {
     font-size: 14px;
     margin: 0 auto;
-    top: 0;
+    /*top: 0;*/
     right: 4%;
   }
   .nav-right {
