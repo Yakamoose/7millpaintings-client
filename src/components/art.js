@@ -4,24 +4,8 @@ import {connect} from 'react-redux';
 
 import './art.css';
 
-// import images from '../image-files';
-//
-// images = images.images;
-// console.log(images);
-//insert eno image urls too!!!
+
 let images = [
-  // `url('https://source.unsplash.com/collection/1178910/1000x1000')`,
-  // `url('https://source.unsplash.com/collection/641239/1000x1000')`,
-  // `url('https://source.unsplash.com/collection/772323/1000x1000')`,
-  // `url('https://source.unsplash.com/collection/1045118/1000x1000')`,
-  // `url('https://source.unsplash.com/collection/1178910/1000x1000')`,
-  // `url('https://source.unsplash.com/collection/641239/1000x1000')`,
-  // `url('https://source.unsplash.com/collection/772323/1000x1000')`,
-  // `url('https://source.unsplash.com/collection/1045118/1000x1000')`,
-  // `url('https://source.unsplash.com/collection/1178910/1000x1000')`,
-  // `url('https://source.unsplash.com/collection/641239/1000x1000')`,
-
-
   `url('https://i.ytimg.com/vi/r9t8kQrNbTw/maxresdefault.jpg')`,
   `url('https://i.ytimg.com/vi/VRkNrWp6tLg/hqdefault.jpg')`,
   `url('https://i.ytimg.com/vi/-PrvEjhnxy8/hqdefault.jpg')`,
@@ -183,7 +167,6 @@ export class Art extends React.Component {
       introMessage: 'Click image to save it to your gallery'
     };
     this.handleClick = this.handleClick.bind(this);
-
   };
 
   componentDidMount() {
@@ -221,7 +204,6 @@ export class Art extends React.Component {
         alert('Image saved to gallery!  Click OK to continue viewing.')
       })
   }
-  // in return use like this         <p>{this.state.imageA}</p>
 
   render() {
     return (
@@ -258,20 +240,12 @@ export class Art extends React.Component {
             </div>
           </div>
         </div>
-        <p className="clickText">{this.state.introMessage}</p>
 
+        <p className="clickText">{this.state.introMessage}</p>
       </div>
     );
   }
 }
 
-// <button className="btn" onClick={this.handleClick}>SAVE THIS IMAGE</button>
-
-// const mapStateToProps = (state) => ({
-//   imageA: state.imageA,
-//   imageB: state.imageB
-// })
-//
-// export default connect(mapStateToProps)(Art);
 
 export default connect()(Art);

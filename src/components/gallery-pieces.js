@@ -12,9 +12,7 @@ export class GalleryArtPiece extends React.Component {
       imgA: this.props.imgA,
       imgB: this.props.imgB
     }
-
   }
-
 
   render() {
 

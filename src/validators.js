@@ -5,6 +5,3 @@ export const nonEmpty = value =>
 
 export const email = value =>
     /^\S+@\S+$/.test(value) ? undefined : 'Must be a valid email address';
-
-// export const same = value
-// to check if password is same/confirm password

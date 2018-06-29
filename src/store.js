@@ -4,7 +4,6 @@ import {reducer as formReducer} from 'redux-form';
 
 import {millionReducer} from './reducers';
 
-
 const defaultState = {};
 
 export default createStore(

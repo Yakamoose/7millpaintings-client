@@ -7,7 +7,7 @@ export default function Intro() {
   return (
     <div className="intro">
       <h1>7 MILLION PAINTINGS</h1>
-      <p>This app composes computer generated art.</p>
+      <p>This app composes dynamic computer generated art.</p>
       <p>Enjoy never before seen art and save images you like to your gallery.</p>
       <p>Make prints, business cards, &amp; logo designs with images from your gallery, coming soon...</p>
       <p>DEMO USER: yaka/pass</p>

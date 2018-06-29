@@ -2,13 +2,10 @@ import React from 'react';
 import {reduxForm, Field, SubmissionError, focus} from 'redux-form';
 import axios from "axios";
 import history from '../history';
+import {connect} from 'react-redux';
 
 import Input from './input';
 import {required, nonEmpty, email} from '../validators';
-
-import {connect} from 'react-redux';
-
-
 import {loginSuccess, loginError} from '../actions';
 
 import './login.css';
@@ -19,7 +16,6 @@ export class LogInForm extends React.Component {
   }
 
   onSubmit(user) {
-    // console.log(user);
 
     axios.get(`https://shrouded-castle-18641.herokuapp.com/user/${user.username}/${user.password}`)
       .then((res) => {
@@ -32,7 +28,6 @@ export class LogInForm extends React.Component {
         else if(res.data.userName != null) {
           this.props.dispatch(loginSuccess(res.data));
           history.push('/art');
-          // window.location = '/art';
         }
       });
 

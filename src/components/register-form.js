@@ -65,9 +65,6 @@ export class RegisterUserForm extends React.Component {
           console.log(this.state);
         }
       });
-
-
-      // this.props.dispatch(register(user));
     }
 
     render() {
@@ -135,11 +132,8 @@ const mapStateToProps = (state) => ({
 })
 
 
-
 RegisterUserForm = connect(mapStateToProps)(RegisterUserForm);
-// const mapDispatchToProps = {
-//   register
-// }
+
 
 export default reduxForm({
     form: 'register'

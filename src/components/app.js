@@ -52,9 +52,3 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
-
-
-// <RegisterUserForm
-//   type="user"
-//   postNewUser={user => console.log(user)}
-// />

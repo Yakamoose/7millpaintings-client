@@ -5,8 +5,6 @@
   height: 44%;
   top: 4%;
   left: 51%;
-  /*padding-bottom: 50px;*/
-
 }
 
 #art2 {
@@ -15,11 +13,9 @@
   height: 44%;
   top: -47%;
   left: 51%;
-  /*padding-bottom: 50px;*/
 }
 
 .body {
-  /*border: 3px solid black;*/
   height: 350px;
   width: 350px;
   margin-top: 100px;
@@ -57,20 +53,20 @@
 
 .container3 {
   -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
   bottom: 114%;
   left: 38%;
 }
 
 .container4 {
   -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
   bottom: 193%;
   right: 113%;
 }
@@ -83,31 +79,31 @@
 
 .container6 {
   -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    top: 54%;
-    left: 85%;
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 54%;
+  left: 85%;
 }
 
 .container7 {
   -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-    bottom: 77%;
-    right: 290%;
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  bottom: 77%;
+  right: 290%;
 }
 
 
 .container8 {
   -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
   bottom: 315.5%;
   right: 204%;
 }
@@ -130,7 +126,6 @@
     .body {
       height: 200px;
       width: 200px;
-        /*background-color: lightblue;*/
     }
 }
 

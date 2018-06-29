@@ -7,7 +7,6 @@ import GalleryArtPiece from './gallery-pieces';
 import './gallery.css';
 
 
-
 export class Gallery extends React.Component {
   constructor(props) {
     super(props);
@@ -41,12 +40,8 @@ export class Gallery extends React.Component {
   render() {
     let pieces = [];
     for(let i = 0; i < this.state.gallery.length; i++) {
-      console.log(this.state.gallery[i]);
       pieces[i] =  <GalleryArtPiece imgA={this.state.gallery[i].imgA} imgB={this.state.gallery[i].imgB} key={i}/>;
     }
-
-    const lib = this.state;
-    // console.log(pieces);
 
     return (
       <div className="gallery">
