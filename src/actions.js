@@ -8,8 +8,6 @@ export const REGISTER_ERROR = 'REGISTER_ERROR';
 
 
 export function loginError(user) {
-  console.log('in actions, loginError func');
-  console.log(user);
   alert('Log In Failed | Error Message: ' + user.message);
 
   return {
@@ -21,8 +19,6 @@ export function loginError(user) {
 
 
 export function loginSuccess(user) {
-  console.log('in actions, login func');
-  console.log(user);
   alert('Log In Successfull! Click OK to view art.');
 
 
@@ -38,8 +34,6 @@ export function loginSuccess(user) {
 }
 
 export function registerError(user) {
-  console.log('in actions. registerError func');
-  console.log(user);
   alert('Registration Error | ' + user.message);
 
   return {
@@ -50,8 +44,6 @@ export function registerError(user) {
 }
 
 export function registerSuccess(user) {
-  console.log('in actions. registerSuccess func');
-  console.log(user);
   alert('User registered successfully. Click OK to view art.');
 
   return {
