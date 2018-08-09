@@ -27,14 +27,16 @@ p {
   color: #D3D8DE;
 }
 
-button {
+.btn {
   margin: 20px;
   width: 150px;
   height: 40px;
   background-color: #D3D8DE;
+  padding: 10px 25px;
+  border-radius: 3px;
 }
 
-button:hover {
+.btn:hover {
   width: 165px;
   transition: width 1s;
 }

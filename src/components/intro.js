@@ -11,12 +11,12 @@ export default function Intro() {
       <p>Enjoy never before seen art and save images you like to your gallery.</p>
       <p>Make prints, business cards, &amp; logo designs with images from your gallery, coming soon...</p>
       <p>DEMO USER: yaka/pass</p>
-      <button id="sign-up" type="submit">
+      <a class="btn" id="sign-up" type="submit">
         <Link id="btn" to={ {pathname: '/signup'} }>SIGN UP</Link>
-      </button>
-      <button id="login">
+      </a>
+      <a class="btn" id="login" type="submit">
         <Link id="btn" to={ {pathname: '/login'} }>LOG IN</Link>
-      </button>
+      </a>
     </div>
   );
 }
